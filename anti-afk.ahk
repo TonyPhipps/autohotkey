@@ -1,4 +1,5 @@
 MyWindow := "Fortnite"								; Which window title to watch for
+SetKeyDelay 25, 25									; ms between keys, ms between down/up
 
 F12::												; F12 to start
     Gosub, AFK_Bot									; Run once on start
